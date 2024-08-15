@@ -31,42 +31,10 @@ graph LR;
     Z["Superman"];
     
     %% Main Categories
-    Z --> A["Python"];
-    Z --> B["SQL"];
-    Z --> C["Java"];
-    Z --> D["JavaScript"];
-    Z --> E["Other Tools"];
-    Z --> F["Linux"];
-    
-    %% Python Specializations
-    A --> G["Web Scraping"];
-    A --> H["Machine Learning"];
-    A --> I["Deep Learning"];
-    A --> J["Airflow"];
-    
-    %% SQL Specializations
-    B --> K["MySQL/PostgreSQL"];
-    K --> L["Apache Spark"];
-    K --> M["Neo4j"];
-    K --> N["MongoDB"];
-    
-    %% Java Specialization
-    C --> O["Learning Low-Level DL"];
-    
-    %% JavaScript Specializations
-    D --> P["ReactJS"];
-    D --> Q["NodeJS"];
-    
-    %% Other Tools
-    E --> R["Docker"];
-    E --> S["Makefile"];
-    E --> T["HelmChart"];
-    E --> U["Terraform"];
-    
-    %% Linux Specializations
-    F --> V["GitHub Actions"];
-    F --> W["Cloud Command Line"];
-
-
-
+    Z --> A["Python: Scraping, machine learning, deep learning, and workflow management eg. Airflow."];
+    Z --> B["SQL: Skilled in database management with MySQL/PostgreSQL, and big data processing with Spark, Neo4j, and MongoDB."];
+    Z --> C["Java: Understanding low-level deep learning concepts. (I know how to hand-write FFT)"];
+    Z --> D["JavaScript: eg. UI development with ReactJS and server-side development with NodeJS."];
+    Z --> E["Linux: eg. GitHub Actions for CI/CD and managing cloud resources via command line."];
+    Z --> F["Other Tools: Experienced with Docker, Makefile, k8s, HelmChart, and Terraform"];
 ```
