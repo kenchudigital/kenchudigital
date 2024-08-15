@@ -1,4 +1,13 @@
-## Hi there, I'm Ken Chu 👋
+## Hi there 👋
+
+<p align="center">
+  <img src="introduce_gif/output.gif" alt="Introduction GIF">
+</p>
+
+<p align="center">
+  <img src="img/result.gif" alt="Stable Diffusion Anything XL Result GIF">
+</p>
+
 
 ### 👨‍💻 About Me /
 
@@ -13,3 +22,5 @@
   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white "Python Programming Language") 
   ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white "Java Programming Language")
   ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E "JavaScript Programming Language")
+
+- **Recently Interested in Image, NLP**  
