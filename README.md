@@ -31,10 +31,22 @@ graph LR;
     Z["Superman"];
     
     %% Main Categories
-    Z --> A["Python: Scraping, machine learning, deep learning, and workflow management eg. Airflow."];
-    Z --> B["SQL: Skilled in database management with MySQL/PostgreSQL, and big data processing with Spark, Neo4j, and MongoDB."];
-    Z --> C["Java: Understanding low-level deep learning concepts. (I know how to hand-write FFT)"];
-    Z --> D["JavaScript: eg. UI development with ReactJS and server-side development with NodeJS."];
-    Z --> E["Linux: eg. GitHub Actions for CI/CD and managing cloud resources via command line."];
-    Z --> F["Other Tools: Experienced with Docker, Makefile, k8s, HelmChart, and Terraform"];
+    Z --> A["Python"];
+    A --> AA["Scraping, machine learning, deep learning, and workflow management eg. Airflow."];
+    
+    Z --> B["SQL"];
+    B --> BB["Skilled in database management with MySQL/PostgreSQL, and big data processing with Spark, Neo4j, and MongoDB."];
+    
+    Z --> C["Java"];
+    C --> CC["Understanding low-level deep learning concepts. (I know how to hand-write FFT)"];
+    
+    Z --> D["JavaScript"];
+    D --> DD["eg. UI development with ReactJS and server-side development with NodeJS."];
+    
+    Z --> E["Linux"];
+    E --> EE["eg. GitHub Actions for CI/CD and managing cloud resources via command line."];
+    
+    Z --> F["Other Tools"];
+    F --> FF["Experienced with Docker, Makefile, k8s, HelmChart, and Terraform"];
+
 ```
