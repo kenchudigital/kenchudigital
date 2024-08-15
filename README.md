@@ -12,7 +12,7 @@
 
 - ⭐ Data engineer with a passion for advanced algorithms and AI systems
 - 🌱 Currently studying for a Master's in Computer Science
-- 💻 Competitive programmer on LeetCode, HackerRank
+- 💻 Competitive programmer on LeetCode
 
 ### 🛠️ Current Skills /
 
