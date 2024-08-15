@@ -1,15 +1,11 @@
 ## Hi there 👋
 
-![Stable Diffusion Anything XL Result GIF](https://github.com/kenchudigital/kenchudigital/blob/main/img/sd_result.gif)
-
+<p align="center">
+  <img src="introduce_gif/sd_result.gif" alt="GIF">
+</p>
 
 <p align="center">
   <img src="introduce_gif/output.gif" alt="Introduction GIF">
-</p>
-
-
-<p align="center">
-  <img src="introduce_gif/sd_result.gif" alt="GIF">
 </p>
 
 ### 👨‍💻 About Me /
