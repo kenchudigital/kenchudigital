@@ -21,55 +21,53 @@
   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white "Python Programming Language") 
   ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white "Java Programming Language")
   ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E "JavaScript Programming Language")
+  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white "SQL for Database Management")
+  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black "Linux Operating System")
+
 
 ### 🛠️ Knowledge /
 
 ```mermaid
-
 graph TD;
-    Z["Machine Learning Engineer"];
+
+    %% Core Roles
+    Z["Superman"];
     
-    %% Main Languages
-    Z -- "Main Language" --> A["Python"];
-    Z -- "For Databases" --> B["SQL"];
-    Z -- "Learning Low-Level DL" --> C["Java"];
-    Z -- "For UI/Full-Stack" --> D["JavaScript"];
+    %% Main Languages and Technologies
+    Z -- "Primary Language" --> A["Python"];
+    Z -- "Database Management" --> B["SQL"];
+    Z -- "Low-Level DL" --> C["Java"];
+    Z -- "UI/Full-Stack Development" --> D["JavaScript"];
+    Z -- "DevOps & Tools" --> E["Other Tools"];
+    Z -- "System Administration" --> F["Linux"];
     
     %% Python Specializations
-    A --> E["Data Analysis & Visualization"];
-    A --> F["Machine Learning & Deep Learning"];
-    A --> H["PySpark (Big Data Processing)"];
-    E --> G["Flask (Web Development)"];
-    F --> I["TensorFlow/PyTorch"];
-    F --> J["NLP & Computer Vision"];
-    J --> K["NLP (Text Analysis)"];
-    J --> L["OCR (Image Processing)"];
+    A --> G["Web Scraping"];
+    A --> H["Machine Learning"];
+    A --> I["Deep Learning"];
+    A --> J["Airflow (Workflow Management)"];
     
-    %% Database Technologies
-    B --> M["Database Management"];
-    M --> N["BigQuery"];
-    M --> O["MySQL/PostgreSQL"];
-    M --> P["MongoDB"];
-    M --> Q["Cassandra"];
+    %% SQL Specializations
+    B --> K["MySQL/PostgreSQL"];
+    K --> L["Apache Spark (Big Data Processing)"];
+    K --> M["Neo4j (Graph Databases)"];
+    K --> N["MongoDB (NoSQL Databases)"];
     
     %% Java Specializations
-    C --> R["Deep Learning Theory"];
-    R --> S["Implementing Neural Networks"];
+    C --> O["Learning Low-Level DL"];
     
     %% JavaScript Specializations
-    D --> T["Front-End Development"];
-    D --> U["Back-End Development"];
-    T --> V["ReactJS"];
-    U --> W["NodeJS"];
-    D --> X["Flask (Python Extension)"];
+    D --> P["ReactJS (UI Development)"];
+    D --> Q["NodeJS (Server-Side Development)"];
     
-    %% Cloud & DevOps Tools
-    Z -- "Cloud & DevOps" --> Y["Cloud & CI/CD"];
-    Y --> Z1["Google Cloud (GCP)"];
-    Z1 --> Z2["Google Container Registry (GCR)"];
-    Y --> Z3["Docker"];
-    Y --> Z4["Kubernetes (k8s)"];
-    Y --> Z5["Helm Charts"];
-    Y --> Z6["GitHub CI/CD"];
-    Y --> Z7["Airflow"];
+    %% Other Tools
+    E --> R["Docker (Containerization)"];
+    E --> S["Makefile (Build Automation)"];
+    E --> T["HelmChart (Kubernetes Package Manager)"];
+    E --> U["Terraform (Infrastructure as Code)"];
+    
+    %% Linux Specializations
+    F --> V["GitHub Actions (CI/CD)"];
+    F --> W["Cloud Command Line (GCP, AWS, etc.)"];
+
 ```
