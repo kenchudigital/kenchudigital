@@ -24,50 +24,48 @@
   ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white "SQL for Database Management")
   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black "Linux Operating System")
 
-
-### 🛠️ Knowledge /
-
 ```mermaid
-graph TD;
+graph LR;
 
     %% Core Roles
-    Z["Superman"];
+    Z["Machine Learning Engineer"];
     
-    %% Main Languages and Technologies
-    Z -- "Primary Language" --> A["Python"];
-    Z -- "Database Management" --> B["SQL"];
-    Z -- "Low-Level DL" --> C["Java"];
-    Z -- "UI/Full-Stack Development" --> D["JavaScript"];
-    Z -- "DevOps & Tools" --> E["Other Tools"];
-    Z -- "System Administration" --> F["Linux"];
+    %% Main Categories
+    Z --> A["Python"];
+    Z --> B["SQL"];
+    Z --> C["Java"];
+    Z --> D["JavaScript"];
+    Z --> E["Other Tools"];
+    Z --> F["Linux"];
     
     %% Python Specializations
     A --> G["Web Scraping"];
     A --> H["Machine Learning"];
     A --> I["Deep Learning"];
-    A --> J["Airflow (Workflow Management)"];
+    A --> J["Airflow"];
     
     %% SQL Specializations
     B --> K["MySQL/PostgreSQL"];
-    K --> L["Apache Spark (Big Data Processing)"];
-    K --> M["Neo4j (Graph Databases)"];
-    K --> N["MongoDB (NoSQL Databases)"];
+    K --> L["Apache Spark"];
+    K --> M["Neo4j"];
+    K --> N["MongoDB"];
     
-    %% Java Specializations
+    %% Java Specialization
     C --> O["Learning Low-Level DL"];
     
     %% JavaScript Specializations
-    D --> P["ReactJS (UI Development)"];
-    D --> Q["NodeJS (Server-Side Development)"];
+    D --> P["ReactJS"];
+    D --> Q["NodeJS"];
     
     %% Other Tools
-    E --> R["Docker (Containerization)"];
-    E --> S["Makefile (Build Automation)"];
-    E --> T["HelmChart (Kubernetes Package Manager)"];
-    E --> U["Terraform (Infrastructure as Code)"];
+    E --> R["Docker"];
+    E --> S["Makefile"];
+    E --> T["HelmChart"];
+    E --> U["Terraform"];
     
     %% Linux Specializations
-    F --> V["GitHub Actions (CI/CD)"];
-    F --> W["Cloud Command Line (GCP, AWS, etc.)"];
+    F --> V["GitHub Actions"];
+    F --> W["Cloud Command Line"];
+
 
 ```
