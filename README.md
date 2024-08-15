@@ -27,8 +27,8 @@
 ```mermaid
 graph LR;
 
-    %% Core Roles
-    Z["Machine Learning Engineer"];
+    %% Central Role
+    Z["Superman"];
     
     %% Main Categories
     Z --> A["Python"];
@@ -66,6 +66,7 @@ graph LR;
     %% Linux Specializations
     F --> V["GitHub Actions"];
     F --> W["Cloud Command Line"];
+
 
 
 ```
