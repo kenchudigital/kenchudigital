@@ -10,16 +10,16 @@
 
 ### 👨‍💻 About Me /
 
-- ⭐ Data engineer with a passion for advanced algorithms and AI systems
-- 🌱 Currently studying for a Master's in Computer Science
-- 💻 Competitive programmer on LeetCode
+- ⭐ AI engineer based in Hong Kong, building production automation systems with LLM agents, APIs, cloud, and telecom workflows
+- 🌱 MSc Computer Science graduate from HKU, moving toward robotics-adjacent AI, computer vision, and edge AI systems
+- 💻 Mainly working with Python and TypeScript in production (LangChain, FastAPI, GCP). Also building hands-on projects in YOLO, ESP32, and MQTT toward computer vision and edge AI.
 
 ### 🛠️ Current Skills /
 
 - **Languages**  
 
   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white "Python Programming Language") 
-  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white "Java Programming Language")
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white "TypeScript Programming Language")
   ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E "JavaScript Programming Language")
   ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white "SQL for Database Management")
   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black "Linux Operating System")
@@ -28,25 +28,25 @@
 graph LR;
 
     %% Central Role
-    Z["Superman"];
+    Z["AI Engineer"];
     
     %% Main Categories
-    Z --> A["Python"];
-    A --> AA["Scraping, machine learning, deep learning, and workflow management eg. Airflow."];
+    Z --> A["Python / TypeScript"];
+    A --> AA["Production AI systems, backend APIs, frontend integration, and automation workflows."];
     
-    Z --> B["SQL"];
-    B --> BB["Skilled in database management with MySQL/PostgreSQL, and big data processing with Spark, Neo4j, and MongoDB."];
+    Z --> B["LLM Agents"];
+    B --> BB["OpenAI, LangChain, LangSmith, RAG, prompt engineering, and agent workflow design."];
     
-    Z --> C["Java"];
-    C --> CC["Understanding low-level deep learning concepts. (I know how to hand-write FFT)"];
+    Z --> C["Cloud / Backend"];
+    C --> CC["FastAPI, GCP, selected AWS services, Docker, SQL, API integration, and deployment workflows."];
     
-    Z --> D["JavaScript"];
-    D --> DD["eg. UI development with ReactJS and server-side development with NodeJS."];
+    Z --> D["Computer Vision"];
+    D --> DD["YOLO, CNN, image processing, object detection, and future edge inference experiments."];
     
-    Z --> E["Linux"];
-    E --> EE["eg. GitHub Actions for CI/CD and managing cloud resources via command line."];
+    Z --> E["Edge / IoT"];
+    E --> EE["ESP32, MQTT, Pub/Sub, FFT, sensor data pipeline, and robotics-adjacent sensing projects."];
     
-    Z --> F["Other Tools"];
-    F --> FF["Experienced with Docker, Makefile, k8s, HelmChart, and Terraform"];
+    Z --> F["Future Direction"];
+    F --> FF["ROS2, OpenCV, Jetson / Raspberry Pi, robot perception, and robotics-adjacent AI systems."];
 
 ```
